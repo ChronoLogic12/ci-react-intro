@@ -1,11 +1,11 @@
 import "./App.css";
 
-import FunctionGreeting from "./components/FunctionalGreeting";
+import FunctionGreetingWithProps from "./components/FunctionalGreetingWithProps";
 
 function App() {
 	return (
 		<div className="App">
-			<FunctionGreeting />
+			<FunctionGreetingWithProps greeting="Nice to meet you" name="Mike" age="32" />
 		</div>
 	);
 }
