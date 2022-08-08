@@ -1,6 +1,6 @@
 import "./App.css";
 
-import FunctionGreetingWithProps from "./components/FunctionalGreetingWithProps";
+// import FunctionGreetingWithProps from "./components/FunctionalGreetingWithProps";
 import StatefulGreeting from "./components/StatefulGreeting";
 
 function App() {
