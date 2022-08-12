@@ -17,12 +17,14 @@ import "./App.css";
 // import ControlledFormHooks from "./components/ControlledFormHooks";
 // import UseStateWithArrays from "./components/UseStateWithArrays";
 // import UseStateWithObjects from "./components/UseStateWithObjects";
-import UseEffectCounter from "./components/UseEffectCounter";
+// import UseEffectCounter from "./components/UseEffectCounter";
+// import HTTPRequests from "./components/HTTPRequests"
+import HTTPPost from "./components/HTTPPost";
 
 function App() {
 	return (
 		<div className="App">
-			<UseEffectCounter />
+			<HTTPPost />
 		</div>
 	);
 }
